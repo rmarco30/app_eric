@@ -17,6 +17,10 @@ manifest:
       url: https://github.com/rmarco30/app_glen
       revision: master
       import: false
+    - name: app_x
+      url: https://github.com/rmarco30/app_x
+      revision: master
+      import: false
 
   # Settings applied using the self key will only be applied to the manifest repository
 self:
