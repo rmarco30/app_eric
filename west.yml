@@ -16,7 +16,7 @@ manifest:
       import: false # optional. by default nothing will be imported.
     - name: app_x
       url: https://github.com/rmarco30/app_x
-      revision: master
+      revision: 57aff2e
       # no imports, same as app_glen
 
   # Settings applied using the self key will only be applied to the manifest repository
