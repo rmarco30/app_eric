@@ -14,10 +14,14 @@ manifest:
           - hal_nordic
           - nrfxlib
     - name: app_glen
+      groups:
+        - group_glen
       url: https://github.com/rmarco30/app_glen
       revision: master
       import: false
     - name: app_x
+      groups:
+        - group_appx
       url: https://github.com/rmarco30/app_x
       revision: master
       import: false
