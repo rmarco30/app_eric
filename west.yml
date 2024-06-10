@@ -7,6 +7,7 @@ manifest:
       url: https://github.com/zephyrproject-rtos/zephyr
       revision: v3.4.0
       west-commands: scripts/west-commands.yml
+      # import everything listed in zephyr's west.yml file and put in under deps folder.
       import:
         path-prefix: deps
     - name: app_glen
@@ -16,7 +17,7 @@ manifest:
     - name: app_x
       url: https://github.com/rmarco30/app_x
       revision: master
-      # no imports
+      # no imports, same as app_glen
 
   # Settings applied using the self key will only be applied to the manifest repository
 self:
